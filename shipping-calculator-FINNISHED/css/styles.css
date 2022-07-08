@@ -1,0 +1,207 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.3;
+}
+/* 
+  SITE NAVIGATION 
+ */
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 3px 0 #566473;
+  padding: 0.5rem 1rem;
+}
+.site-nav img {
+  width: 2rem;
+}
+.site-nav h1 {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.site-nav button {
+  background: #566473;
+  border: none;
+  font-size: 0.8rem;
+  color: #ffffff;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+}
+/* 
+*
+_________________SHIPPING CALCULATOR_______________________
+*
+*/
+
+.shipping-calculator {
+  width: 420px;
+  margin: 4rem auto 0;
+}
+/* shipping calculator header */
+.shipping-calculator header {
+  text-align: center;
+  color: #253342;
+  margin-bottom: 1.5rem;
+}
+.shipping-calculator header img {
+  width: 12rem;
+  margin-bottom: -1rem;
+}
+
+.shipping-calculator h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+/* shipping calculator price display */
+.rate {
+  position: relative;
+  color: #fa4147;
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 700;
+}
+.rate span:last-of-type{
+ position: absolute;
+ right: 0.5rem;
+ bottom:1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+ 
+}
+.purchase-button {
+  display: block;
+  width: 60%;
+  padding: 0.75rem 1.8rem;
+  margin: 2rem auto 0;
+  background: #ff1c24;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+/* shipping calculator user warning message */
+.warning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem 0;
+  color: rgb(241, 44, 9);
+}
+
+.warning-icon {
+  margin-right: 0.25rem;
+  width: 1.5rem;
+}
+
+/* shipping calculator controls */
+.control {
+  margin: 0rem auto 1.5rem;
+  position: relative;
+}
+
+.rate-calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rate-calculator input,
+.submit-button {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  outline: none;
+}
+.submit-button {
+  border: none;
+  background: #0b4012;
+  outline: none;
+  color: #ffffff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: #29343e;
+  color: #ffffff;
+}
+
+.rate-calculator input {
+  text-align: right;
+  padding-right: 2.5rem;
+  width: 124px;
+  border: none;
+  box-shadow: 0 0 2px 0 #253342 inset;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #253342;
+
+  background: url(../img/icons/kilograms.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position-y: 59%;
+  background-position-x: 90%;
+}
+
+/* 
+TERMS AND CONDITIONS
+ */
+.terms {
+  color: #c0c0c1;
+  font-size: 13px;
+  padding: 0 2rem;
+  margin-top: 3rem;
+  min-width: 320px;
+  max-width: 500px;
+  margin:0 auto;
+}
+.terms ul{
+ 
+}
+.terms li {
+background-image: url(../img/icons/dot.svg);
+  background-repeat: no-repeat;
+  background-size: 0.35rem;
+  background-position: 0 5px;
+  padding-left: 0.65rem;
+ 
+ 
+  margin-bottom: 0.5rem;
+  margin-left: 0.8rem;
+}
+/* .terms li:first-of-type {
+  color: #b5b5b5;
+  list-style-type: none;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left:0;
+background-image: none;
+ 
+} */
+.support{
+  color: #253342;
+  font-size: 13px;
+  margin-bottom: 1rem;
+}
+.support span {
+  color: rgb(241, 44, 9);
+  font-weight: bold;
+  text-align: center;
+}
+
+/* 
+Utility Classes
+*/
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  display: block;
+}
